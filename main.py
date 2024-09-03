@@ -9,8 +9,9 @@ mp_draw = mp.solutions.drawing_utils
 
 cap = cv2.VideoCapture(0)
 
+score = 0
 balls = []
-ball_radius = 30
+ball_radius = 20
 
 def create_ball():
     x = random.randint(ball_radius, 620)
@@ -43,10 +44,19 @@ while cap.isOpened():
         balls[i][1] += 5
         cv2.circle(frame, (balls[i][0], balls[i][1]), ball_radius, (0, 255, 0), -1)
 
-        if balls[i][1] - ball_radius < frame_height:
+        collision_detected = False
+        for pos in hand_pos:
+            if np.linalg.norm(np.array(pos) - np.array(balls[i])) < ball_radius:
+                score += 1
+                collision_detected = True
+                break
+
+        if not collision_detected and balls[i][1] - ball_radius < frame_height:
             remaining_balls.append(balls[i])
         
     balls = remaining_balls
+        
+    cv2.putText(frame, f'Score: {score}', (10, 40), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 255), 2)
 
     cv2.imshow('game', frame)
     
