@@ -8,7 +8,7 @@ To run the game, you'll need to have Python installed along with the required li
 
 1. Clone the repository:
 ```
-git clone https://github.com/1adore1/hand_pop.git
+git clone https://github.com/1adore1/pop_the_ball_game.git
 ```
 2. Install the required Python libraries:
 ```
@@ -19,7 +19,7 @@ pip install -r requirements.txt
 
 To start the game, execute the following command:
 ```
-python hand_tracking_ball_game.py
+python main.py
 ```
 Make sure your webcam is connected, as the game requires video input to track your hand.
 
