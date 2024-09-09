@@ -8,7 +8,8 @@ To run the game, you'll need to have Python installed along with the required li
 
 1. Clone the repository:
 ```
-git clone https://github.com/1adore1/pop_the_ball_game.git
+cd <your directory>
+git clone https://github.com/1adore1/pop-the_ball-game.git
 cd pop_the_ball_game
 ```
 2. Install the required Python libraries:
