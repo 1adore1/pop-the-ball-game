@@ -21,7 +21,6 @@ To start the game, execute the following command:
 ```
 python main.py
 ```
-Make sure your webcam is connected, as the game requires video input to track your hand.
 
 ### Gameplay Instructions
 
