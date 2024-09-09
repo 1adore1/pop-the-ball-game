@@ -1,6 +1,6 @@
 # Pop The Ball Game
 
-This project demonstrates a simple hand-tracking game where balls fall from the top of the screen, and the player's task is to "pop" them using their hands, tracked by a webcam.
+This project demonstrates a simple hand-tracking game where balls fall from the top of the screen, and the player's task is to "pop" them using their hands.
 
 ### Installation
 
