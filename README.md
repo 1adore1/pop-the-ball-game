@@ -1,10 +1,8 @@
 # Pop The Ball Game
 
-This project demonstrates a simple hand-tracking game where balls fall from the top of the screen, and the player's task is to "pop" them using their hands, tracked by a webcam. The game utilizes OpenCV for video capture and MediaPipe for hand tracking.
+This project demonstrates a simple hand-tracking game where balls fall from the top of the screen, and the player's task is to "pop" them using their hands, tracked by a webcam.
 
 ### Installation
-
-To run the game, you'll need to have Python installed along with the required libraries:
 
 1. Clone the repository:
 ```
