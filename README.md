@@ -26,5 +26,5 @@ python main.py
 
 * Balls will randomly fall from the top of the screen.
 * Your score increases each time a ball touches any point on your hand.
-* The game ends when you press the 'q' key to quit.
+* The game ends when you press the ```q``` key to quit.
 ---
