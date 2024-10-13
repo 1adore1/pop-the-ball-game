@@ -1,6 +1,6 @@
-![](https://github.com/1adore1/pop-the-ball-game/blob/main/gif.gif)
 # Pop The Ball Game
-
+![](https://github.com/1adore1/pop-the-ball-game/blob/main/gif.gif)
+### Overview
 This project demonstrates a simple hand-tracking game where balls fall from the top of the screen, and the player's task is to "pop" them using their hands.
 
 ### Installation
